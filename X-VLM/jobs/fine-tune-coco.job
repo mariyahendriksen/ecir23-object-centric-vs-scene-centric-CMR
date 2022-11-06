@@ -1,0 +1,10 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:2
+#SBATCH --mem=200gb
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/fine-tune-coco.out
+
+
+
+python3 run.py --task "itr_coco" --dist "gpu1" --output_dir "output/itr" --checkpoint "/ivi/ilps/personal/mbiriuk/repro/X-VLM/retrieval_coco_checkpoint_9.pth"

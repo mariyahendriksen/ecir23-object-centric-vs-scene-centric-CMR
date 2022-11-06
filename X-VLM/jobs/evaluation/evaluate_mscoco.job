@@ -1,0 +1,16 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:1
+#SBATCH --mem=250gb
+#SBATCH --exclude=ilps-cn108
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/evaluation/eval-coco.out
+
+echo 'Working with MS COCO!'
+echo 'Start the evaluation!'
+python3 X-VLM/run.py --task "itr_coco" \
+--dist "gpu0" --evaluate \
+--output_dir "X-VLM/data/models/coco/" \
+--checkpoint "X-VLM/data/models/coco/checkpoint_best.pth"
+echo 'Done with the evaluation!'
+echo 'End of the script!'

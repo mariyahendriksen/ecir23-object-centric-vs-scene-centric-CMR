@@ -1,0 +1,18 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:4
+#SBATCH --mem=240gb
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/train-evaluate-abo.out
+
+echo 'Working with ABO!'
+
+echo 'Start training!'
+python3 run.py --task "itr_abo" --dist "gpu3" --output_dir "output/itr_abo" --checkpoint "/ivi/ilps/personal/mbiriuk/repro/X-VLM/4m_base_model_state_step_199999.th"
+echo 'Done with training!'
+
+echo 'Start evaluation!'
+python3 run.py --task "itr_abo" --dist "gpu3" --evaluate --output_dir "output/itr_abo " --checkpoint "/home/mbiriuk/X-VLM/output/itr_abo/checkpoint_best.pth"
+echo 'Done with evaluation!'
+
+echo 'End of script!'

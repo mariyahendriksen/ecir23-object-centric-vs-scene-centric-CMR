@@ -1,0 +1,17 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:2
+#SBATCH --mem=160gb
+#SBATCH --time=48:00:00
+#SBATCH --exclude=ilps-cn108
+#SBATCH -o /home/mbiriuk/X-VLM/logs/evaluate-abo-small.out
+
+echo 'Working with ABO!'
+
+echo 'Start evaluation!'
+python3 run.py --task "itr_abo" --dist "gpu1" \
+--evaluate --output_dir "output/itr_abo_small" \
+--checkpoint "/home/mbiriuk/X-VLM/output/itr_abo_small/checkpoint_best.pth"
+echo 'Done with evaluation!'
+
+echo 'End of script!'

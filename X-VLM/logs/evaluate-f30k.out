@@ -1,0 +1,147 @@
+| distributed init (rank 0): env://
+Creating model
+load checkpoint from /ivi/ilps/personal/mbiriuk/repro/X-VLM/retrieval_f30k_checkpoint_best.pth
+missing_keys:  []
+unexpected_keys:  []
+### Total Params:  213959547
+Creating retrieval dataset
+### output_dir,  output/itr_flickr
+Start evaluating
+### be careful: func create_loader returns a list length of 1
+Computing features for evaluation...
+Evaluation: [   0/1000]  eta: 0:00:21    time: 0.0211  data: 0.0016  max mem: 3805
+Evaluation: [  50/1000]  eta: 0:03:42    time: 0.2389  data: 0.0000  max mem: 3805
+Evaluation: [ 100/1000]  eta: 0:03:32    time: 0.2390  data: 0.0000  max mem: 3805
+Evaluation: [ 150/1000]  eta: 0:03:21    time: 0.2389  data: 0.0000  max mem: 3805
+Evaluation: [ 200/1000]  eta: 0:03:10    time: 0.2391  data: 0.0000  max mem: 3805
+Evaluation: [ 250/1000]  eta: 0:02:58    time: 0.2393  data: 0.0000  max mem: 3805
+Evaluation: [ 300/1000]  eta: 0:02:46    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [ 350/1000]  eta: 0:02:35    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [ 400/1000]  eta: 0:02:23    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [ 450/1000]  eta: 0:02:11    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [ 500/1000]  eta: 0:01:59    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [ 550/1000]  eta: 0:01:47    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [ 600/1000]  eta: 0:01:35    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [ 650/1000]  eta: 0:01:23    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [ 700/1000]  eta: 0:01:11    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [ 750/1000]  eta: 0:00:59    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 800/1000]  eta: 0:00:47    time: 0.2400  data: 0.0000  max mem: 3805
+Evaluation: [ 850/1000]  eta: 0:00:35    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 900/1000]  eta: 0:00:23    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 950/1000]  eta: 0:00:11    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [ 999/1000]  eta: 0:00:00    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: Total time: 0:03:59 (0.2393 s / it)
+Evaluation: [   0/5000]  eta: 0:01:52    time: 0.0226  data: 0.0075  max mem: 3805
+Evaluation: [  50/5000]  eta: 0:19:25    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [ 100/5000]  eta: 0:19:23    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 150/5000]  eta: 0:19:15    time: 0.2400  data: 0.0000  max mem: 3805
+Evaluation: [ 200/5000]  eta: 0:19:05    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [ 250/5000]  eta: 0:18:54    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 300/5000]  eta: 0:18:43    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [ 350/5000]  eta: 0:18:32    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 400/5000]  eta: 0:18:20    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 450/5000]  eta: 0:18:08    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [ 500/5000]  eta: 0:17:57    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [ 550/5000]  eta: 0:17:45    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 600/5000]  eta: 0:17:33    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [ 650/5000]  eta: 0:17:21    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 700/5000]  eta: 0:17:09    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [ 750/5000]  eta: 0:16:57    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 800/5000]  eta: 0:16:46    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 850/5000]  eta: 0:16:34    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [ 900/5000]  eta: 0:16:22    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [ 950/5000]  eta: 0:16:10    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1000/5000]  eta: 0:15:58    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [1050/5000]  eta: 0:15:46    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [1100/5000]  eta: 0:15:34    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1150/5000]  eta: 0:15:22    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1200/5000]  eta: 0:15:10    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [1250/5000]  eta: 0:14:58    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1300/5000]  eta: 0:14:46    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [1350/5000]  eta: 0:14:34    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1400/5000]  eta: 0:14:22    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1450/5000]  eta: 0:14:10    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1500/5000]  eta: 0:13:58    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1550/5000]  eta: 0:13:46    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [1600/5000]  eta: 0:13:34    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1650/5000]  eta: 0:13:22    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1700/5000]  eta: 0:13:10    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [1750/5000]  eta: 0:12:58    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [1800/5000]  eta: 0:12:46    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [1850/5000]  eta: 0:12:34    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [1900/5000]  eta: 0:12:22    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [1950/5000]  eta: 0:12:10    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [2000/5000]  eta: 0:11:58    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [2050/5000]  eta: 0:11:46    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [2100/5000]  eta: 0:11:34    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [2150/5000]  eta: 0:11:22    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [2200/5000]  eta: 0:11:10    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [2250/5000]  eta: 0:10:58    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [2300/5000]  eta: 0:10:46    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [2350/5000]  eta: 0:10:34    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [2400/5000]  eta: 0:10:22    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [2450/5000]  eta: 0:10:10    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [2500/5000]  eta: 0:09:58    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [2550/5000]  eta: 0:09:46    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [2600/5000]  eta: 0:09:35    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [2650/5000]  eta: 0:09:23    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [2700/5000]  eta: 0:09:11    time: 0.2393  data: 0.0000  max mem: 3805
+Evaluation: [2750/5000]  eta: 0:08:59    time: 0.2394  data: 0.0000  max mem: 3805
+Evaluation: [2800/5000]  eta: 0:08:47    time: 0.2395  data: 0.0000  max mem: 3805
+Evaluation: [2850/5000]  eta: 0:08:35    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [2900/5000]  eta: 0:08:23    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [2950/5000]  eta: 0:08:11    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [3000/5000]  eta: 0:07:59    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [3050/5000]  eta: 0:07:47    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3100/5000]  eta: 0:07:35    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3150/5000]  eta: 0:07:23    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3200/5000]  eta: 0:07:11    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3250/5000]  eta: 0:06:59    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3300/5000]  eta: 0:06:47    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [3350/5000]  eta: 0:06:35    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [3400/5000]  eta: 0:06:23    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [3450/5000]  eta: 0:06:11    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [3500/5000]  eta: 0:05:59    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [3550/5000]  eta: 0:05:47    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [3600/5000]  eta: 0:05:35    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3650/5000]  eta: 0:05:23    time: 0.2396  data: 0.0000  max mem: 3805
+Evaluation: [3700/5000]  eta: 0:05:11    time: 0.2397  data: 0.0000  max mem: 3805
+Evaluation: [3750/5000]  eta: 0:04:59    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3800/5000]  eta: 0:04:47    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3850/5000]  eta: 0:04:35    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3900/5000]  eta: 0:04:23    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [3950/5000]  eta: 0:04:11    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4000/5000]  eta: 0:03:59    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4050/5000]  eta: 0:03:47    time: 0.2400  data: 0.0000  max mem: 3805
+Evaluation: [4100/5000]  eta: 0:03:35    time: 0.2400  data: 0.0000  max mem: 3805
+Evaluation: [4150/5000]  eta: 0:03:23    time: 0.2400  data: 0.0000  max mem: 3805
+Evaluation: [4200/5000]  eta: 0:03:11    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4250/5000]  eta: 0:02:59    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4300/5000]  eta: 0:02:47    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4350/5000]  eta: 0:02:35    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4400/5000]  eta: 0:02:23    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4450/5000]  eta: 0:02:11    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4500/5000]  eta: 0:01:59    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4550/5000]  eta: 0:01:47    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4600/5000]  eta: 0:01:35    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4650/5000]  eta: 0:01:23    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4700/5000]  eta: 0:01:11    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4750/5000]  eta: 0:00:59    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4800/5000]  eta: 0:00:47    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4850/5000]  eta: 0:00:35    time: 0.2398  data: 0.0000  max mem: 3805
+Evaluation: [4900/5000]  eta: 0:00:23    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4950/5000]  eta: 0:00:11    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: [4999/5000]  eta: 0:00:00    time: 0.2399  data: 0.0000  max mem: 3805
+Evaluation: Total time: 0:19:58 (0.2397 s / it)
+Evaluation time 0:24:44
+Saved ranks to  output/itr_flickr/eval_ranks_i2t.pkl
+Saved ranks to  output/itr_flickr/eval_ranks_t2i.pkl
+{'txt_r1': 97.0, 'txt_r5': 100.0, 'txt_r10': 100.0, 'txt_r_mean': 99.0, 'img_r1': 86.88, 'img_r5': 97.32, 'img_r10': 98.68, 'img_r_mean': 94.29333333333334, 'r_mean': 96.64666666666668}
+### Time 0:24:44
+NNODES,  1
+NPROC_PER_NODE,  8
+MASTER_ADDR,  SET_IT
+MASTER_PORT,  12345
+NODE_RANK,  0
+### warning: the settings for distributed training is not filled (ignore this if you only use one node)
+### warning: you have not set the path to hadoop_bin (ignore this if you don't use HDFS)

@@ -1,0 +1,14 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:2
+#SBATCH --mem=160gb
+#SBATCH --exclude=ilps-cn108
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/evaluation/eval-f30k.out
+
+python3 X-VLM/run.py --task "itr_flickr" \
+--dist "gpu1" --evaluate \
+--output_dir "X-VLM/data/models/f30k/" \
+--checkpoint "X-VLM/data/models/f30k/checkpoint_best.pth"
+echo 'Done with the evaluation!'
+echo 'End of script!'

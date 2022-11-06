@@ -1,0 +1,9 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:2
+#SBATCH --mem=160gb
+#SBATCH --time=48:00:00
+#SBATCH --exclude=ilps-cn108
+#SBATCH -o /home/mbiriuk/X-VLM/logs/train-fashion200k-small.out
+
+python3 run.py --task "itr_fashion200k" --dist "gpu1" --output_dir "output/itr_fashion200k_small" --checkpoint "/ivi/ilps/personal/mbiriuk/repro/X-VLM/4m_base_model_state_step_199999.th" 

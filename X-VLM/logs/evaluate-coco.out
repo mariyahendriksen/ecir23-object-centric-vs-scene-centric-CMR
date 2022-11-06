@@ -1,0 +1,629 @@
+| distributed init (rank 0): env://
+Creating model
+load checkpoint from /ivi/ilps/personal/mbiriuk/repro/X-VLM/retrieval_coco_checkpoint_9.pth
+missing_keys:  []
+unexpected_keys:  []
+### Total Params:  213959547
+Creating retrieval dataset
+### output_dir,  output/itr_coco
+Start evaluating
+### be careful: func create_loader returns a list length of 1
+Computing features for evaluation...
+Evaluation: [   0/5000]  eta: 0:02:29    time: 0.0299  data: 0.0071  max mem: 10310
+Evaluation: [  50/5000]  eta: 0:14:37    time: 0.1802  data: 0.0000  max mem: 10310
+Evaluation: [ 100/5000]  eta: 0:14:36    time: 0.1809  data: 0.0000  max mem: 10310
+Evaluation: [ 150/5000]  eta: 0:14:45    time: 0.1924  data: 0.0000  max mem: 10310
+Evaluation: [ 200/5000]  eta: 0:14:52    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [ 250/5000]  eta: 0:14:52    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 300/5000]  eta: 0:14:49    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [ 350/5000]  eta: 0:14:44    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 400/5000]  eta: 0:14:37    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 450/5000]  eta: 0:14:30    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 500/5000]  eta: 0:14:23    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 550/5000]  eta: 0:14:15    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 600/5000]  eta: 0:14:06    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 650/5000]  eta: 0:13:58    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 700/5000]  eta: 0:13:49    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 750/5000]  eta: 0:13:40    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 800/5000]  eta: 0:13:31    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 850/5000]  eta: 0:13:22    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 900/5000]  eta: 0:13:13    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [ 950/5000]  eta: 0:13:04    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1000/5000]  eta: 0:12:55    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1050/5000]  eta: 0:12:45    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1100/5000]  eta: 0:12:36    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [1150/5000]  eta: 0:12:27    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1200/5000]  eta: 0:12:17    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1250/5000]  eta: 0:12:08    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [1300/5000]  eta: 0:11:58    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1350/5000]  eta: 0:11:49    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1400/5000]  eta: 0:11:39    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [1450/5000]  eta: 0:11:30    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1500/5000]  eta: 0:11:20    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1550/5000]  eta: 0:11:10    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1600/5000]  eta: 0:11:01    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1650/5000]  eta: 0:10:51    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1700/5000]  eta: 0:10:42    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1750/5000]  eta: 0:10:32    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [1800/5000]  eta: 0:10:22    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [1850/5000]  eta: 0:10:13    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1900/5000]  eta: 0:10:03    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [1950/5000]  eta: 0:09:53    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [2000/5000]  eta: 0:09:44    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2050/5000]  eta: 0:09:34    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2100/5000]  eta: 0:09:24    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [2150/5000]  eta: 0:09:15    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [2200/5000]  eta: 0:09:05    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2250/5000]  eta: 0:08:55    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2300/5000]  eta: 0:08:46    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2350/5000]  eta: 0:08:36    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2400/5000]  eta: 0:08:26    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2450/5000]  eta: 0:08:17    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2500/5000]  eta: 0:08:07    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [2550/5000]  eta: 0:07:57    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2600/5000]  eta: 0:07:47    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2650/5000]  eta: 0:07:38    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [2700/5000]  eta: 0:07:28    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2750/5000]  eta: 0:07:18    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2800/5000]  eta: 0:07:09    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [2850/5000]  eta: 0:06:59    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2900/5000]  eta: 0:06:49    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [2950/5000]  eta: 0:06:39    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3000/5000]  eta: 0:06:30    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3050/5000]  eta: 0:06:20    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3100/5000]  eta: 0:06:10    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3150/5000]  eta: 0:06:00    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3200/5000]  eta: 0:05:51    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3250/5000]  eta: 0:05:41    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3300/5000]  eta: 0:05:31    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3350/5000]  eta: 0:05:22    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3400/5000]  eta: 0:05:12    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3450/5000]  eta: 0:05:02    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3500/5000]  eta: 0:04:52    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3550/5000]  eta: 0:04:43    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3600/5000]  eta: 0:04:33    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [3650/5000]  eta: 0:04:23    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3700/5000]  eta: 0:04:13    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3750/5000]  eta: 0:04:04    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3800/5000]  eta: 0:03:54    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3850/5000]  eta: 0:03:44    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3900/5000]  eta: 0:03:34    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [3950/5000]  eta: 0:03:25    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4000/5000]  eta: 0:03:15    time: 0.1956  data: 0.0000  max mem: 10310
+Evaluation: [4050/5000]  eta: 0:03:05    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4100/5000]  eta: 0:02:55    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4150/5000]  eta: 0:02:45    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4200/5000]  eta: 0:02:36    time: 0.1956  data: 0.0000  max mem: 10310
+Evaluation: [4250/5000]  eta: 0:02:26    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4300/5000]  eta: 0:02:16    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4350/5000]  eta: 0:02:06    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4400/5000]  eta: 0:01:57    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4450/5000]  eta: 0:01:47    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4500/5000]  eta: 0:01:37    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4550/5000]  eta: 0:01:27    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4600/5000]  eta: 0:01:18    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4650/5000]  eta: 0:01:08    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4700/5000]  eta: 0:00:58    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4750/5000]  eta: 0:00:48    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4800/5000]  eta: 0:00:39    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [4850/5000]  eta: 0:00:29    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4900/5000]  eta: 0:00:19    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [4950/5000]  eta: 0:00:09    time: 0.1956  data: 0.0000  max mem: 10310
+Evaluation: [4999/5000]  eta: 0:00:00    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: Total time: 0:16:16 (0.1954 s / it)
+Evaluation: [    0/25010]  eta: 0:49:39    time: 0.1191  data: 0.1054  max mem: 10310
+Evaluation: [   50/25010]  eta: 1:20:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  100/25010]  eta: 1:20:58    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  150/25010]  eta: 1:20:55    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [  200/25010]  eta: 1:20:49    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  250/25010]  eta: 1:20:41    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  300/25010]  eta: 1:20:33    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  350/25010]  eta: 1:20:24    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  400/25010]  eta: 1:20:15    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [  450/25010]  eta: 1:20:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  500/25010]  eta: 1:19:56    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  550/25010]  eta: 1:19:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  600/25010]  eta: 1:19:37    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [  650/25010]  eta: 1:19:28    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [  700/25010]  eta: 1:19:18    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  750/25010]  eta: 1:19:09    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  800/25010]  eta: 1:18:59    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  850/25010]  eta: 1:18:49    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  900/25010]  eta: 1:18:40    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [  950/25010]  eta: 1:18:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1000/25010]  eta: 1:18:20    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 1050/25010]  eta: 1:18:11    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1100/25010]  eta: 1:18:01    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1150/25010]  eta: 1:17:51    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 1200/25010]  eta: 1:17:42    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1250/25010]  eta: 1:17:32    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1300/25010]  eta: 1:17:22    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1350/25010]  eta: 1:17:12    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 1400/25010]  eta: 1:17:03    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1450/25010]  eta: 1:16:53    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1500/25010]  eta: 1:16:43    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1550/25010]  eta: 1:16:33    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 1600/25010]  eta: 1:16:24    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1650/25010]  eta: 1:16:14    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1700/25010]  eta: 1:16:04    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 1750/25010]  eta: 1:15:54    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1800/25010]  eta: 1:15:44    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1850/25010]  eta: 1:15:35    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1900/25010]  eta: 1:15:25    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 1950/25010]  eta: 1:15:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2000/25010]  eta: 1:15:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2050/25010]  eta: 1:14:56    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2100/25010]  eta: 1:14:46    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 2150/25010]  eta: 1:14:36    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 2200/25010]  eta: 1:14:26    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2250/25010]  eta: 1:14:17    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2300/25010]  eta: 1:14:07    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 2350/25010]  eta: 1:13:57    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2400/25010]  eta: 1:13:47    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 2450/25010]  eta: 1:13:38    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2500/25010]  eta: 1:13:28    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2550/25010]  eta: 1:13:18    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2600/25010]  eta: 1:13:08    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2650/25010]  eta: 1:12:58    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2700/25010]  eta: 1:12:49    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2750/25010]  eta: 1:12:39    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2800/25010]  eta: 1:12:29    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2850/25010]  eta: 1:12:19    time: 0.1960  data: 0.0000  max mem: 10310
+Evaluation: [ 2900/25010]  eta: 1:12:10    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 2950/25010]  eta: 1:12:00    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3000/25010]  eta: 1:11:50    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3050/25010]  eta: 1:11:40    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 3100/25010]  eta: 1:11:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3150/25010]  eta: 1:11:21    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 3200/25010]  eta: 1:11:11    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3250/25010]  eta: 1:11:01    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 3300/25010]  eta: 1:10:51    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3350/25010]  eta: 1:10:42    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3400/25010]  eta: 1:10:32    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3450/25010]  eta: 1:10:22    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3500/25010]  eta: 1:10:12    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 3550/25010]  eta: 1:10:02    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3600/25010]  eta: 1:09:53    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3650/25010]  eta: 1:09:43    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 3700/25010]  eta: 1:09:33    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3750/25010]  eta: 1:09:23    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3800/25010]  eta: 1:09:13    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3850/25010]  eta: 1:09:04    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 3900/25010]  eta: 1:08:54    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 3950/25010]  eta: 1:08:44    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4000/25010]  eta: 1:08:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4050/25010]  eta: 1:08:25    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4100/25010]  eta: 1:08:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4150/25010]  eta: 1:08:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4200/25010]  eta: 1:07:55    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4250/25010]  eta: 1:07:45    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4300/25010]  eta: 1:07:36    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 4350/25010]  eta: 1:07:26    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4400/25010]  eta: 1:07:16    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4450/25010]  eta: 1:07:06    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 4500/25010]  eta: 1:06:56    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 4550/25010]  eta: 1:06:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4600/25010]  eta: 1:06:37    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4650/25010]  eta: 1:06:27    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4700/25010]  eta: 1:06:17    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 4750/25010]  eta: 1:06:07    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4800/25010]  eta: 1:05:58    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 4850/25010]  eta: 1:05:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4900/25010]  eta: 1:05:38    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 4950/25010]  eta: 1:05:28    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5000/25010]  eta: 1:05:19    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5050/25010]  eta: 1:05:09    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5100/25010]  eta: 1:04:59    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5150/25010]  eta: 1:04:49    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5200/25010]  eta: 1:04:39    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 5250/25010]  eta: 1:04:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5300/25010]  eta: 1:04:20    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5350/25010]  eta: 1:04:10    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5400/25010]  eta: 1:04:00    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5450/25010]  eta: 1:03:50    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 5500/25010]  eta: 1:03:41    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5550/25010]  eta: 1:03:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5600/25010]  eta: 1:03:21    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5650/25010]  eta: 1:03:11    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5700/25010]  eta: 1:03:01    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5750/25010]  eta: 1:02:52    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5800/25010]  eta: 1:02:42    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 5850/25010]  eta: 1:02:32    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 5900/25010]  eta: 1:02:22    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 5950/25010]  eta: 1:02:13    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6000/25010]  eta: 1:02:03    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6050/25010]  eta: 1:01:53    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6100/25010]  eta: 1:01:43    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 6150/25010]  eta: 1:01:33    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 6200/25010]  eta: 1:01:24    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6250/25010]  eta: 1:01:14    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6300/25010]  eta: 1:01:04    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [ 6350/25010]  eta: 1:00:54    time: 0.1960  data: 0.0000  max mem: 10310
+Evaluation: [ 6400/25010]  eta: 1:00:44    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6450/25010]  eta: 1:00:35    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 6500/25010]  eta: 1:00:25    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 6550/25010]  eta: 1:00:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6600/25010]  eta: 1:00:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6650/25010]  eta: 0:59:55    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6700/25010]  eta: 0:59:46    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 6750/25010]  eta: 0:59:36    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6800/25010]  eta: 0:59:26    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6850/25010]  eta: 0:59:16    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 6900/25010]  eta: 0:59:06    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 6950/25010]  eta: 0:58:57    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7000/25010]  eta: 0:58:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7050/25010]  eta: 0:58:37    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7100/25010]  eta: 0:58:27    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7150/25010]  eta: 0:58:18    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7200/25010]  eta: 0:58:08    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7250/25010]  eta: 0:57:58    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7300/25010]  eta: 0:57:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7350/25010]  eta: 0:57:38    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 7400/25010]  eta: 0:57:29    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7450/25010]  eta: 0:57:19    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7500/25010]  eta: 0:57:09    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 7550/25010]  eta: 0:56:59    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7600/25010]  eta: 0:56:49    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7650/25010]  eta: 0:56:40    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7700/25010]  eta: 0:56:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7750/25010]  eta: 0:56:20    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7800/25010]  eta: 0:56:10    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7850/25010]  eta: 0:56:00    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7900/25010]  eta: 0:55:51    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 7950/25010]  eta: 0:55:41    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8000/25010]  eta: 0:55:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8050/25010]  eta: 0:55:21    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8100/25010]  eta: 0:55:11    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8150/25010]  eta: 0:55:02    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8200/25010]  eta: 0:54:52    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8250/25010]  eta: 0:54:42    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8300/25010]  eta: 0:54:32    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8350/25010]  eta: 0:54:22    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8400/25010]  eta: 0:54:13    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8450/25010]  eta: 0:54:03    time: 0.1957  data: 0.0000  max mem: 10310
+Evaluation: [ 8500/25010]  eta: 0:53:53    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8550/25010]  eta: 0:53:43    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8600/25010]  eta: 0:53:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8650/25010]  eta: 0:53:24    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8700/25010]  eta: 0:53:14    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8750/25010]  eta: 0:53:04    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 8800/25010]  eta: 0:52:54    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8850/25010]  eta: 0:52:45    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8900/25010]  eta: 0:52:35    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 8950/25010]  eta: 0:52:25    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9000/25010]  eta: 0:52:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9050/25010]  eta: 0:52:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9100/25010]  eta: 0:51:56    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 9150/25010]  eta: 0:51:46    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9200/25010]  eta: 0:51:36    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9250/25010]  eta: 0:51:26    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9300/25010]  eta: 0:51:16    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9350/25010]  eta: 0:51:07    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9400/25010]  eta: 0:50:57    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 9450/25010]  eta: 0:50:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9500/25010]  eta: 0:50:37    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9550/25010]  eta: 0:50:27    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [ 9600/25010]  eta: 0:50:18    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9650/25010]  eta: 0:50:08    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9700/25010]  eta: 0:49:58    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9750/25010]  eta: 0:49:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9800/25010]  eta: 0:49:38    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9850/25010]  eta: 0:49:29    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9900/25010]  eta: 0:49:19    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [ 9950/25010]  eta: 0:49:09    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10000/25010]  eta: 0:48:59    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10050/25010]  eta: 0:48:50    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10100/25010]  eta: 0:48:40    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10150/25010]  eta: 0:48:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10200/25010]  eta: 0:48:20    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10250/25010]  eta: 0:48:10    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [10300/25010]  eta: 0:48:01    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [10350/25010]  eta: 0:47:51    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10400/25010]  eta: 0:47:41    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10450/25010]  eta: 0:47:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10500/25010]  eta: 0:47:21    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10550/25010]  eta: 0:47:12    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10600/25010]  eta: 0:47:02    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [10650/25010]  eta: 0:46:52    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10700/25010]  eta: 0:46:42    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [10750/25010]  eta: 0:46:32    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [10800/25010]  eta: 0:46:23    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [10850/25010]  eta: 0:46:13    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [10900/25010]  eta: 0:46:03    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [10950/25010]  eta: 0:45:53    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11000/25010]  eta: 0:45:43    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11050/25010]  eta: 0:45:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11100/25010]  eta: 0:45:24    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [11150/25010]  eta: 0:45:14    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11200/25010]  eta: 0:45:04    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [11250/25010]  eta: 0:44:54    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11300/25010]  eta: 0:44:45    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11350/25010]  eta: 0:44:35    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [11400/25010]  eta: 0:44:25    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [11450/25010]  eta: 0:44:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11500/25010]  eta: 0:44:06    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11550/25010]  eta: 0:43:56    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11600/25010]  eta: 0:43:46    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11650/25010]  eta: 0:43:36    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11700/25010]  eta: 0:43:26    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11750/25010]  eta: 0:43:17    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11800/25010]  eta: 0:43:07    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [11850/25010]  eta: 0:42:57    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [11900/25010]  eta: 0:42:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [11950/25010]  eta: 0:42:37    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12000/25010]  eta: 0:42:28    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [12050/25010]  eta: 0:42:18    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [12100/25010]  eta: 0:42:08    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12150/25010]  eta: 0:41:58    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [12200/25010]  eta: 0:41:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12250/25010]  eta: 0:41:39    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12300/25010]  eta: 0:41:29    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12350/25010]  eta: 0:41:19    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [12400/25010]  eta: 0:41:09    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12450/25010]  eta: 0:40:59    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12500/25010]  eta: 0:40:50    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [12550/25010]  eta: 0:40:40    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12600/25010]  eta: 0:40:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12650/25010]  eta: 0:40:20    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12700/25010]  eta: 0:40:11    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [12750/25010]  eta: 0:40:01    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [12800/25010]  eta: 0:39:51    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12850/25010]  eta: 0:39:41    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12900/25010]  eta: 0:39:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [12950/25010]  eta: 0:39:22    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13000/25010]  eta: 0:39:12    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13050/25010]  eta: 0:39:02    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13100/25010]  eta: 0:38:52    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13150/25010]  eta: 0:38:42    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13200/25010]  eta: 0:38:33    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13250/25010]  eta: 0:38:23    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13300/25010]  eta: 0:38:13    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13350/25010]  eta: 0:38:03    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13400/25010]  eta: 0:37:53    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13450/25010]  eta: 0:37:44    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13500/25010]  eta: 0:37:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13550/25010]  eta: 0:37:24    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13600/25010]  eta: 0:37:14    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13650/25010]  eta: 0:37:04    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13700/25010]  eta: 0:36:55    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13750/25010]  eta: 0:36:45    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13800/25010]  eta: 0:36:35    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [13850/25010]  eta: 0:36:25    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13900/25010]  eta: 0:36:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [13950/25010]  eta: 0:36:06    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14000/25010]  eta: 0:35:56    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [14050/25010]  eta: 0:35:46    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14100/25010]  eta: 0:35:36    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14150/25010]  eta: 0:35:27    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [14200/25010]  eta: 0:35:17    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14250/25010]  eta: 0:35:07    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14300/25010]  eta: 0:34:57    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14350/25010]  eta: 0:34:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14400/25010]  eta: 0:34:38    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [14450/25010]  eta: 0:34:28    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [14500/25010]  eta: 0:34:18    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14550/25010]  eta: 0:34:08    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [14600/25010]  eta: 0:33:58    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14650/25010]  eta: 0:33:49    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [14700/25010]  eta: 0:33:39    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14750/25010]  eta: 0:33:29    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14800/25010]  eta: 0:33:19    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14850/25010]  eta: 0:33:09    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [14900/25010]  eta: 0:33:00    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [14950/25010]  eta: 0:32:50    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15000/25010]  eta: 0:32:40    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [15050/25010]  eta: 0:32:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15100/25010]  eta: 0:32:20    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15150/25010]  eta: 0:32:11    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15200/25010]  eta: 0:32:01    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [15250/25010]  eta: 0:31:51    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15300/25010]  eta: 0:31:41    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15350/25010]  eta: 0:31:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15400/25010]  eta: 0:31:22    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15450/25010]  eta: 0:31:12    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15500/25010]  eta: 0:31:02    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15550/25010]  eta: 0:30:52    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [15600/25010]  eta: 0:30:43    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15650/25010]  eta: 0:30:33    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15700/25010]  eta: 0:30:23    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15750/25010]  eta: 0:30:13    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15800/25010]  eta: 0:30:03    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15850/25010]  eta: 0:29:54    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [15900/25010]  eta: 0:29:44    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [15950/25010]  eta: 0:29:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16000/25010]  eta: 0:29:24    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16050/25010]  eta: 0:29:14    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16100/25010]  eta: 0:29:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16150/25010]  eta: 0:28:55    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16200/25010]  eta: 0:28:45    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16250/25010]  eta: 0:28:35    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16300/25010]  eta: 0:28:25    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [16350/25010]  eta: 0:28:16    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16400/25010]  eta: 0:28:06    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [16450/25010]  eta: 0:27:56    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16500/25010]  eta: 0:27:46    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16550/25010]  eta: 0:27:36    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16600/25010]  eta: 0:27:27    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [16650/25010]  eta: 0:27:17    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16700/25010]  eta: 0:27:07    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16750/25010]  eta: 0:26:57    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16800/25010]  eta: 0:26:47    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [16850/25010]  eta: 0:26:38    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16900/25010]  eta: 0:26:28    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [16950/25010]  eta: 0:26:18    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [17000/25010]  eta: 0:26:08    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17050/25010]  eta: 0:25:59    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17100/25010]  eta: 0:25:49    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [17150/25010]  eta: 0:25:39    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [17200/25010]  eta: 0:25:29    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17250/25010]  eta: 0:25:19    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [17300/25010]  eta: 0:25:10    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17350/25010]  eta: 0:25:00    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [17400/25010]  eta: 0:24:50    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17450/25010]  eta: 0:24:40    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17500/25010]  eta: 0:24:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17550/25010]  eta: 0:24:21    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17600/25010]  eta: 0:24:11    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17650/25010]  eta: 0:24:01    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [17700/25010]  eta: 0:23:51    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17750/25010]  eta: 0:23:41    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17800/25010]  eta: 0:23:32    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17850/25010]  eta: 0:23:22    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17900/25010]  eta: 0:23:12    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [17950/25010]  eta: 0:23:02    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18000/25010]  eta: 0:22:52    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18050/25010]  eta: 0:22:43    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18100/25010]  eta: 0:22:33    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18150/25010]  eta: 0:22:23    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [18200/25010]  eta: 0:22:13    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [18250/25010]  eta: 0:22:04    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18300/25010]  eta: 0:21:54    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18350/25010]  eta: 0:21:44    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [18400/25010]  eta: 0:21:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18450/25010]  eta: 0:21:24    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18500/25010]  eta: 0:21:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18550/25010]  eta: 0:21:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18600/25010]  eta: 0:20:55    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18650/25010]  eta: 0:20:45    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18700/25010]  eta: 0:20:35    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18750/25010]  eta: 0:20:26    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18800/25010]  eta: 0:20:16    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18850/25010]  eta: 0:20:06    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18900/25010]  eta: 0:19:56    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [18950/25010]  eta: 0:19:46    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19000/25010]  eta: 0:19:37    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19050/25010]  eta: 0:19:27    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19100/25010]  eta: 0:19:17    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19150/25010]  eta: 0:19:07    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19200/25010]  eta: 0:18:57    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19250/25010]  eta: 0:18:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19300/25010]  eta: 0:18:38    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19350/25010]  eta: 0:18:28    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19400/25010]  eta: 0:18:18    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19450/25010]  eta: 0:18:08    time: 0.1960  data: 0.0000  max mem: 10310
+Evaluation: [19500/25010]  eta: 0:17:59    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19550/25010]  eta: 0:17:49    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19600/25010]  eta: 0:17:39    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19650/25010]  eta: 0:17:29    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19700/25010]  eta: 0:17:20    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19750/25010]  eta: 0:17:10    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19800/25010]  eta: 0:17:00    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [19850/25010]  eta: 0:16:50    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19900/25010]  eta: 0:16:40    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [19950/25010]  eta: 0:16:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20000/25010]  eta: 0:16:21    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20050/25010]  eta: 0:16:11    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [20100/25010]  eta: 0:16:01    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [20150/25010]  eta: 0:15:51    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20200/25010]  eta: 0:15:42    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20250/25010]  eta: 0:15:32    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [20300/25010]  eta: 0:15:22    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20350/25010]  eta: 0:15:12    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20400/25010]  eta: 0:15:02    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [20450/25010]  eta: 0:14:53    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [20500/25010]  eta: 0:14:43    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20550/25010]  eta: 0:14:33    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [20600/25010]  eta: 0:14:23    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20650/25010]  eta: 0:14:13    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20700/25010]  eta: 0:14:04    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20750/25010]  eta: 0:13:54    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [20800/25010]  eta: 0:13:44    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20850/25010]  eta: 0:13:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20900/25010]  eta: 0:13:24    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [20950/25010]  eta: 0:13:15    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [21000/25010]  eta: 0:13:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21050/25010]  eta: 0:12:55    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21100/25010]  eta: 0:12:45    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21150/25010]  eta: 0:12:36    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21200/25010]  eta: 0:12:26    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21250/25010]  eta: 0:12:16    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21300/25010]  eta: 0:12:06    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [21350/25010]  eta: 0:11:56    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [21400/25010]  eta: 0:11:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21450/25010]  eta: 0:11:37    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21500/25010]  eta: 0:11:27    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21550/25010]  eta: 0:11:17    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21600/25010]  eta: 0:11:07    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21650/25010]  eta: 0:10:58    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21700/25010]  eta: 0:10:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21750/25010]  eta: 0:10:38    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21800/25010]  eta: 0:10:28    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [21850/25010]  eta: 0:10:18    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21900/25010]  eta: 0:10:09    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [21950/25010]  eta: 0:09:59    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [22000/25010]  eta: 0:09:49    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [22050/25010]  eta: 0:09:39    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [22100/25010]  eta: 0:09:29    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22150/25010]  eta: 0:09:20    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22200/25010]  eta: 0:09:10    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22250/25010]  eta: 0:09:00    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22300/25010]  eta: 0:08:50    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [22350/25010]  eta: 0:08:40    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22400/25010]  eta: 0:08:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22450/25010]  eta: 0:08:21    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22500/25010]  eta: 0:08:11    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22550/25010]  eta: 0:08:01    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22600/25010]  eta: 0:07:52    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [22650/25010]  eta: 0:07:42    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22700/25010]  eta: 0:07:32    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22750/25010]  eta: 0:07:22    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22800/25010]  eta: 0:07:12    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22850/25010]  eta: 0:07:03    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22900/25010]  eta: 0:06:53    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [22950/25010]  eta: 0:06:43    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [23000/25010]  eta: 0:06:33    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [23050/25010]  eta: 0:06:23    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23100/25010]  eta: 0:06:14    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [23150/25010]  eta: 0:06:04    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23200/25010]  eta: 0:05:54    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23250/25010]  eta: 0:05:44    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23300/25010]  eta: 0:05:34    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23350/25010]  eta: 0:05:25    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23400/25010]  eta: 0:05:15    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23450/25010]  eta: 0:05:05    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23500/25010]  eta: 0:04:55    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23550/25010]  eta: 0:04:45    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [23600/25010]  eta: 0:04:36    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23650/25010]  eta: 0:04:26    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [23700/25010]  eta: 0:04:16    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23750/25010]  eta: 0:04:06    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23800/25010]  eta: 0:03:56    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [23850/25010]  eta: 0:03:47    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23900/25010]  eta: 0:03:37    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [23950/25010]  eta: 0:03:27    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24000/25010]  eta: 0:03:17    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [24050/25010]  eta: 0:03:08    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24100/25010]  eta: 0:02:58    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [24150/25010]  eta: 0:02:48    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24200/25010]  eta: 0:02:38    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24250/25010]  eta: 0:02:28    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24300/25010]  eta: 0:02:19    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24350/25010]  eta: 0:02:09    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24400/25010]  eta: 0:01:59    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [24450/25010]  eta: 0:01:49    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24500/25010]  eta: 0:01:39    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: [24550/25010]  eta: 0:01:30    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24600/25010]  eta: 0:01:20    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24650/25010]  eta: 0:01:10    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24700/25010]  eta: 0:01:00    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24750/25010]  eta: 0:00:50    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24800/25010]  eta: 0:00:41    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24850/25010]  eta: 0:00:31    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24900/25010]  eta: 0:00:21    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [24950/25010]  eta: 0:00:11    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [25000/25010]  eta: 0:00:01    time: 0.1959  data: 0.0000  max mem: 10310
+Evaluation: [25009/25010]  eta: 0:00:00    time: 0.1958  data: 0.0000  max mem: 10310
+Evaluation: Total time: 1:21:38 (0.1959 s / it)
+Evaluation time 1:39:22
+Saved ranks to  output/itr_coco/eval_ranks_i2t.pkl
+Saved ranks to  output/itr_coco/eval_ranks_t2i.pkl
+{'txt_r1': 81.22, 'txt_r5': 95.66, 'txt_r10': 98.16, 'txt_r_mean': 91.67999999999999,
+'img_r1': 63.434626149540186, 'img_r5': 85.84166333466614, 'img_r10': 91.49940023990403, 'img_r_mean': 80.25856324137011, 'r_mean': 85.96928162068505}
+### Time 1:39:28
+NNODES,  1
+NPROC_PER_NODE,  8
+MASTER_ADDR,  SET_IT
+MASTER_PORT,  12345
+NODE_RANK,  0
+### warning: the settings for distributed training is not filled (ignore this if you only use one node)
+### warning: you have not set the path to hadoop_bin (ignore this if you don't use HDFS)

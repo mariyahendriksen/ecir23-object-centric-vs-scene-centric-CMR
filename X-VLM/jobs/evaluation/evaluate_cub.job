@@ -1,0 +1,16 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:2
+#SBATCH --mem=160gb
+#SBATCH --exclude=ilps-cn108
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/evaluation/eval-cub.out
+
+echo 'Working with CUB!'
+echo 'Start the evaluation!'
+python3 X-VLM/run.py --task "itr_cub" \
+--dist "gpu0" --evaluate \
+--output_dir "X-VLM/data/models/cub/" \
+--checkpoint "X-VLM/data/models/cub/checkpoint_best.pth"
+echo 'Done with the evaluation!'
+echo 'End of the script!'

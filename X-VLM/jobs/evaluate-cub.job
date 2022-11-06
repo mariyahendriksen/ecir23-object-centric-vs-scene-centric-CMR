@@ -1,0 +1,11 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:1
+#SBATCH --mem=160gb
+#SBATCH --exclude=ilps-cn108
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/evaluate-cub.out
+
+python3 run.py --task "itr_cub" \
+--dist "gpu0" --evaluate --output_dir "output/itr_cub" \
+--checkpoint "/home/mbiriuk/X-VLM/output/itr_cub/checkpoint_best.pth"

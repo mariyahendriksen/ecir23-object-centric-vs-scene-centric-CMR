@@ -1,0 +1,9 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100gb
+#SBATCH --time=48:00:00
+#SBATCH --exclude=ilps-cn108
+#SBATCH -o /home/mbiriuk/X-VLM/logs/evaluate-f30k.out
+
+python3 run.py --task "itr_flickr" --dist "gpu0" --evaluate --output_dir "output/itr_flickr" --checkpoint "/ivi/ilps/personal/mbiriuk/repro/X-VLM/retrieval_f30k_checkpoint_best.pth"

@@ -1,0 +1,99 @@
+Working with ABO!
+Start training!
+| distributed init (rank 0): env://
+Creating model
+### Loading pretrained vision encoder
+Position interpolate vision_encoder.layers.0.blocks.0.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.0.blocks.1.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.1.blocks.0.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.1.blocks.1.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.0.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.1.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.2.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.3.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.4.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.5.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.6.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.7.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.8.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.9.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.10.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.11.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.12.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.13.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.14.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.15.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.16.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.2.blocks.17.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.3.blocks.0.attn.relative_position_bias_table from 13x13 to 23x23
+Position interpolate vision_encoder.layers.3.blocks.1.attn.relative_position_bias_table from 13x13 to 23x23
+### Loading pretrained text encoder
+load checkpoint from /ivi/ilps/personal/mbiriuk/repro/X-VLM/4m_base_model_state_step_199999.th
+missing_keys:  []
+unexpected_keys:  ['bbox_head.0.weight', 'bbox_head.0.bias', 'bbox_head.1.weight', 'bbox_head.1.bias', 'bbox_head.3.weight', 'bbox_head.3.bias', 'text_encoder.cls.predictions.bias', 'text_encoder.cls.predictions.transform.dense.weight', 'text_encoder.cls.predictions.transform.dense.bias', 'text_encoder.cls.predictions.transform.LayerNorm.weight', 'text_encoder.cls.predictions.transform.LayerNorm.bias', 'text_encoder.cls.predictions.decoder.weight', 'text_encoder.cls.predictions.decoder.bias']
+### Total Params:  213959547
+Creating retrieval dataset
+### output_dir,  output/itr_abo
+Start training
+### data 48693, batch size, 2 x 1
+### lr_mult,  2
+### num_training_steps,  243470
+### num_warmup_steps,  24347
+Train Epoch: [0] [    0/24346]  eta: 8:20:48  lr: 0.000000  loss_itm: 0.8046  loss_itc: 0.2227  time: 1.2342  data: 0.4720  max mem: 4160
+Train Epoch: [0] [   50/24346]  eta: 2:28:20  lr: 0.000000  loss_itm: 2.7343  loss_itc: 0.9237  time: 0.3481  data: 0.0001  max mem: 6309
+Train Epoch: [0] [  100/24346]  eta: 2:24:27  lr: 0.000000  loss_itm: 0.5844  loss_itc: 0.8954  time: 0.3488  data: 0.0001  max mem: 6309
+Train Epoch: [0] [  150/24346]  eta: 2:23:01  lr: 0.000000  loss_itm: 1.4587  loss_itc: 0.1085  time: 0.3496  data: 0.0001  max mem: 6312
+Train Epoch: [0] [  200/24346]  eta: 2:22:13  lr: 0.000000  loss_itm: 0.2015  loss_itc: 0.4720  time: 0.3500  data: 0.0001  max mem: 6314
+Train Epoch: [0] [  250/24346]  eta: 2:21:39  lr: 0.000000  loss_itm: 0.1802  loss_itc: 0.0186  time: 0.3504  data: 0.0001  max mem: 6314
+Train Epoch: [0] [  300/24346]  eta: 2:21:12  lr: 0.000000  loss_itm: 0.5463  loss_itc: 0.4750  time: 0.3508  data: 0.0001  max mem: 6314
+Train Epoch: [0] [  350/24346]  eta: 2:20:48  lr: 0.000000  loss_itm: 0.1140  loss_itc: 0.0011  time: 0.3504  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  400/24346]  eta: 2:20:27  lr: 0.000000  loss_itm: 0.8111  loss_itc: 0.5055  time: 0.3508  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  450/24346]  eta: 2:20:07  lr: 0.000001  loss_itm: 1.6903  loss_itc: 2.1710  time: 0.3510  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  500/24346]  eta: 2:19:48  lr: 0.000001  loss_itm: 0.4127  loss_itc: 0.1301  time: 0.3513  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  550/24346]  eta: 2:19:29  lr: 0.000001  loss_itm: 0.8175  loss_itc: 0.5654  time: 0.3516  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  600/24346]  eta: 2:19:12  lr: 0.000001  loss_itm: 0.0856  loss_itc: 0.0110  time: 0.3516  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  650/24346]  eta: 2:18:54  lr: 0.000001  loss_itm: 0.3646  loss_itc: 0.1642  time: 0.3517  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  700/24346]  eta: 2:18:36  lr: 0.000001  loss_itm: 0.0355  loss_itc: 0.0018  time: 0.3513  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  750/24346]  eta: 2:18:18  lr: 0.000001  loss_itm: 0.1435  loss_itc: 0.0009  time: 0.3516  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  800/24346]  eta: 2:18:01  lr: 0.000001  loss_itm: 0.2163  loss_itc: 0.0280  time: 0.3516  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  850/24346]  eta: 2:17:43  lr: 0.000001  loss_itm: 0.4021  loss_itc: 0.0018  time: 0.3520  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  900/24346]  eta: 2:17:26  lr: 0.000001  loss_itm: 0.1447  loss_itc: 0.0051  time: 0.3520  data: 0.0001  max mem: 6321
+Train Epoch: [0] [  950/24346]  eta: 2:17:09  lr: 0.000001  loss_itm: 0.1389  loss_itc: 0.0394  time: 0.3532  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1000/24346]  eta: 2:16:52  lr: 0.000001  loss_itm: 0.2202  loss_itc: 0.5440  time: 0.3524  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1050/24346]  eta: 2:16:36  lr: 0.000001  loss_itm: 0.5416  loss_itc: 1.3941  time: 0.3524  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1100/24346]  eta: 2:16:19  lr: 0.000001  loss_itm: 0.4573  loss_itc: 0.1330  time: 0.3526  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1150/24346]  eta: 2:16:03  lr: 0.000001  loss_itm: 0.2510  loss_itc: 0.1235  time: 0.3526  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1200/24346]  eta: 2:15:47  lr: 0.000001  loss_itm: 0.0654  loss_itc: 0.0007  time: 0.3545  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1250/24346]  eta: 2:15:31  lr: 0.000002  loss_itm: 0.0676  loss_itc: 0.0054  time: 0.3534  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1300/24346]  eta: 2:15:14  lr: 0.000002  loss_itm: 0.3015  loss_itc: 0.2145  time: 0.3536  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1350/24346]  eta: 2:14:57  lr: 0.000002  loss_itm: 0.0971  loss_itc: 0.0152  time: 0.3531  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1400/24346]  eta: 2:14:41  lr: 0.000002  loss_itm: 0.3366  loss_itc: 0.1186  time: 0.3554  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1450/24346]  eta: 2:14:24  lr: 0.000002  loss_itm: 0.0937  loss_itc: 0.2386  time: 0.3525  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1500/24346]  eta: 2:14:07  lr: 0.000002  loss_itm: 0.4270  loss_itc: 0.0670  time: 0.3527  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1550/24346]  eta: 2:13:51  lr: 0.000002  loss_itm: 0.0743  loss_itc: 0.0014  time: 0.3560  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1600/24346]  eta: 2:13:34  lr: 0.000002  loss_itm: 0.6479  loss_itc: 0.2802  time: 0.3536  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1650/24346]  eta: 2:13:17  lr: 0.000002  loss_itm: 0.3073  loss_itc: 0.1151  time: 0.3535  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1700/24346]  eta: 2:13:00  lr: 0.000002  loss_itm: 0.4389  loss_itc: 0.3780  time: 0.3535  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1750/24346]  eta: 2:12:42  lr: 0.000002  loss_itm: 0.6885  loss_itc: 0.2996  time: 0.3525  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1800/24346]  eta: 2:12:25  lr: 0.000002  loss_itm: 0.0037  loss_itc: 0.0001  time: 0.3530  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1850/24346]  eta: 2:12:09  lr: 0.000002  loss_itm: 0.0315  loss_itc: 0.0072  time: 0.3532  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1900/24346]  eta: 2:11:51  lr: 0.000002  loss_itm: 0.8140  loss_itc: 0.7824  time: 0.3528  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 1950/24346]  eta: 2:11:34  lr: 0.000002  loss_itm: 0.6097  loss_itc: 0.0803  time: 0.3529  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 2000/24346]  eta: 2:11:17  lr: 0.000002  loss_itm: 0.0276  loss_itc: 0.0000  time: 0.3555  data: 0.0001  max mem: 6321
+Train Epoch: [0] [ 2050/24346]  eta: 2:11:00  lr: 0.000003  loss_itm: 0.0933  loss_itc: 0.0018  time: 0.3538  data: 0.0001  max mem: 6321
+slurmstepd: error: *** JOB 389888 ON ilps-cn108 CANCELLED AT 2022-09-22T14:44:21 ***
+Traceback (most recent call last):
+  File "/home/mbiriuk/anaconda3/envs/xvlm/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/mbiriuk/anaconda3/envs/xvlm/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/mbiriuk/anaconda3/envs/xvlm/lib/python3.7/site-packages/torch/distributed/launch.py", line 260, in <module>
+  File "/home/mbiriuk/anaconda3/envs/xvlm/lib/python3.7/site-packages/torch/distributed/launch.py", line 256, in main
+subprocess.CalledProcessError: Command '['/home/mbiriuk/anaconda3/envs/xvlm/bin/python3', '-u', 'Retrieval.py', '--config', 'configs/retrieval_abo.yaml', '--output_dir', 'output/itr_abo', '--bs', '-1', '--checkpoint', '/ivi/ilps/personal/mbiriuk/repro/X-VLM/4m_base_model_state_step_199999.th']' died with <Signals.SIGBUS: 7>.
+NNODES,  1
+NPROC_PER_NODE,  8
+MASTER_ADDR,  SET_IT
+MASTER_PORT,  12345
+NODE_RANK,  0
+### warning: the settings for distributed training is not filled (ignore this if you only use one node)
+### warning: you have not set the path to hadoop_bin (ignore this if you don't use HDFS)

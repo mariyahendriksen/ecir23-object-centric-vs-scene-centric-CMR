@@ -1,0 +1,10 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:1
+#SBATCH --mem=100gb
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/evaluate-coco.out
+
+python3 run.py --task "itr_abo" \
+--dist "gpu0" --evaluate --output_dir "output/itr" \
+--checkpoint "/ivi/ilps/personal/mbiriuk/repro/X-VLM/retrieval_coco_checkpoint_9.pth"

@@ -1,0 +1,15 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:2
+#SBATCH --mem=160gb
+#SBATCH --exclude=ilps-cn108
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/zh/train-cub.out
+
+echo 'Working with CUB!'
+echo 'Start training!'
+python3 run.py --task "itr_cub" --dist "gpu1" --output_dir "output/zh/cub" --checkpoint "/ivi/ilps/personal/mbiriuk/repro/X-VLM/4m_base_model_state_step_199999.th" 
+echo 'Done with training!'
+
+
+echo 'End of script!'
