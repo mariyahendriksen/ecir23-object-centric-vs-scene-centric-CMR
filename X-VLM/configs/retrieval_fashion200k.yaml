@@ -1,7 +1,7 @@
 train_file:  ['X-VLM/data/json_splits/fashion200k_train.json']
 val_file: 'X-VLM/data/json_splits/fashion200k_val.json'
 test_file: 'X-VLM/data/json_splits/fashion200k_test.json'
-image_root: '/ivi/ilps/personal/mbiriuk/fashion200k'
+image_root: 'X-VLM/images/'
 
 
 ## Vision Encoder

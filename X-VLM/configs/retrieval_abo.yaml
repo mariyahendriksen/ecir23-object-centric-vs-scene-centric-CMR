@@ -1,7 +1,7 @@
 train_file:  ['X-VLM/data/json_splits/abo_train.json']
 val_file: 'X-VLM/data/json_splits/abo_val.json'
 test_file: 'X-VLM/data/json_splits/abo_test.json'
-image_root: '/ivi/ilps/personal/mbiriuk/abo/images/small'
+image_root: 'X-VLM/images/abo'
 
 
 ## Vision Encoder

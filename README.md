@@ -1,13 +1,14 @@
-# ecir-23-reproducibility-hendriksen
-This is the PyTorch code repository for the ECIR 2023 reproducibility track  TBA
+# ecir-23-reproducibility
+This is the PyTorch code repository for the paper "Scene-centric vs. Object-centric Cross-modal Retrieval" submitted to ECIR 2023 reproducibility track.
 
-All the commands are to be executed from one folder higher.
-0. Download the necessary data.
 
 ```bash
-wget TBA
-unzip TBA
+pip install -r requirements.txt
 ```
+
+# Download the data
+Download the data from [this repository](https://zenodo.org/record/7298031#.Y2jgU-zMLtV). The reposotory contains two zip files: `CLIP_data.zip` and `X-VLM_data.zip`
+
 
 After unzipping `CLIP_data` put the resulting `data` folder in the `CLIP` folder:
 
@@ -47,18 +48,17 @@ X-VLM/
         flickr30k/*.jpg
 ```
 
-1. Evaluate each model on each of the five datasets.
+# Models evaluation
+Evaluate each model on each of the five datasets.
 
 ```bash
 # CLIP evaluation
 sh CLIP/jobs/evaluation/evaluate_cub.job
 sh CLIP/jobs/evaluation/evaluate_abo.job
 sh CLIP/jobs/evaluation/evaluate_fashion200k.job
-
 sh CLIP/jobs/evaluation/evaluate_mscoco.job
 sh CLIP/jobs/evaluation/evaluate_flickr30k.job
-
-# printing the results in one file
+# printing the results for CLIP in one file
 sh CLIP/jobs/postprocessing/results_printer.job
 
 # X-VLM evaluation

@@ -1,7 +1,7 @@
 train_file:  ['X-VLM/data/json_splits/flickr30k_train.json']
 val_file: 'X-VLM/data/json_splits/flickr30k_val.json'
 test_file: 'X-VLM/data/json_splits/flickr30k_test.json'
-image_root: '/ivi/ilps/personal/mbiriuk/flickr30k_images/flickr30k_images'
+image_root: 'X-VLM/images/flickr30k'
 
 
 ## Vision Encoder

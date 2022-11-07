@@ -1,7 +1,7 @@
 train_file:  ['X-VLM/data/json_splits/cub_train.json']
 val_file: 'X-VLM/data/json_splits/cub_val.json'
 test_file: 'X-VLM/data/json_splits/cub_test.json'
-image_root: '/ivi/ilps/personal/mbiriuk/CUB_200_2011/images'
+image_root: 'X-VLM/images/cub/'
 
 
 ## Vision Encoder
