@@ -1,7 +1,6 @@
 .DS_Store
 
 # CLIP-specific files
-CLIP/logs/
 CLIP/deliverables/
 CLIP/data/
 CLIP/output/

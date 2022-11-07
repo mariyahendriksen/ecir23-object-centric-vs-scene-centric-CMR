@@ -1,7 +1,7 @@
 # ecir-23-reproducibility
 This is the PyTorch code repository for the paper "Scene-centric vs. Object-centric Cross-modal Retrieval" submitted to ECIR 2023 reproducibility track.
 
-
+Install the dependancies:
 ```bash
 pip install -r requirements.txt
 ```
