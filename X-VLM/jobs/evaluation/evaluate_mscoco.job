@@ -2,7 +2,6 @@
 #SBATCH -p gpu
 #SBATCH --gres=gpu:1
 #SBATCH --mem=250gb
-#SBATCH --exclude=ilps-cn108
 #SBATCH --time=48:00:00
 #SBATCH -o /home/mbiriuk/X-VLM/logs/evaluation/eval-coco.out
 

@@ -3,7 +3,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mem=250gb
 #SBATCH --time=48:00:00
-#SBATCH --exclude=ilps-cn108
 #SBATCH -o /home/mbiriuk/X-VLM/logs/evaluation/eval-abo.out
 
 echo 'Working with ABO!'

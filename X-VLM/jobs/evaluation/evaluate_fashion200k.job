@@ -3,7 +3,6 @@
 #SBATCH --gres=gpu:2
 #SBATCH --mem=250gb
 #SBATCH --time=48:00:00
-#SBATCH --exclude=ilps-cn108
 #SBATCH -o /home/mbiriuk/X-VLM/logs/evaluation/eval-fashion200k.out
 
 echo 'Working with Fashion200k!'

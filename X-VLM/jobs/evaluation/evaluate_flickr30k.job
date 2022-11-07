@@ -2,7 +2,6 @@
 #SBATCH -p gpu
 #SBATCH --gres=gpu:2
 #SBATCH --mem=160gb
-#SBATCH --exclude=ilps-cn108
 #SBATCH --time=48:00:00
 #SBATCH -o /home/mbiriuk/X-VLM/logs/evaluation/eval-f30k.out
 
