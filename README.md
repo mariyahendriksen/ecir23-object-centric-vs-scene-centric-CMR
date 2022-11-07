@@ -9,8 +9,18 @@ wget TBA
 unzip TBA
 ```
 
-After unzipping the folder, put it in the CLIP root folder.
-For evaluating X-VLM, we need to have access to the original images from the datasets. We cannot redistribute the images, therefore, we ask you to download the images yourself. The images should be added to the `X-VLM/image` directory. Overall the X-VLM folder should look as follows:
+After unzipping `CLIP_data` put the resulting `data` folder in the `CLIP` folder:
+
+```angular2html
+CLIP/
+    data/
+        datasets/
+        results/
+```
+
+
+For evaluating X-VLM, we need to have access to the original images from [CUB-200](http://www.vision.caltech.edu/datasets/cub_200_2011/), [Amazon Berkley Objects](https://amazon-berkeley-objects.s3.amazonaws.com/index.html), [Fashion200k](https://github.com/xthan/fashion-200k), [MS COCO](https://cocodataset.org), and [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/). We cannot redistribute the images, therefore, we ask you to download the images yourself. The images should be added to the `X-VLM/image` directory, each dataset in its own subfolder folder.
+Overall the X-VLM folder should look as follows:
 
 ```angular2html
 X-VLM/
@@ -37,7 +47,7 @@ X-VLM/
         flickr30k/*.jpg
 ```
 
-1. Evaluate model wrt to the dataset type. The evaluation can be done in two ways
+1. Evaluate each model on each of the five datasets.
 
 ```bash
 # CLIP evaluation
@@ -48,16 +58,13 @@ sh CLIP/jobs/evaluation/evaluate_fashion200k.job
 sh CLIP/jobs/evaluation/evaluate_mscoco.job
 sh CLIP/jobs/evaluation/evaluate_flickr30k.job
 
+# printing the results in one file
+sh CLIP/jobs/postprocessing/results_printer.job
+
 # X-VLM evaluation
 sh X-VLM/jobs/evaluation/evaluate_flickr30k.job 
 sh X-VLM/jobs/evaluation/evaluate_cub.job 
 sh X-VLM/jobs/evaluation/evaluate_abo.job 
 sh X-VLM/jobs/evaluation/evaluate_fashion200k.job 
 sh X-VLM/jobs/evaluation/evaluate_mscoco.job 
-```
-
-2. Print the results.
-
-```bash
-sh CLIP/jobs/postprocessing/results_printer.job
 ```
