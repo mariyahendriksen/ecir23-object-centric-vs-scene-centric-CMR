@@ -1,7 +1,7 @@
 # ecir-23-reproducibility
 This is the PyTorch code repository for the paper "Scene-centric vs. Object-centric Cross-modal Retrieval" submitted to ECIR 2023 reproducibility track.
 
-Install the dependancies:
+First off, install the dependancies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -20,7 +20,7 @@ CLIP/
 ```
 
 
-For evaluating X-VLM, we need to have access to the original images from [CUB-200](http://www.vision.caltech.edu/datasets/cub_200_2011/), [Amazon Berkley Objects](https://amazon-berkeley-objects.s3.amazonaws.com/index.html), [Fashion200k](https://github.com/xthan/fashion-200k), [MS COCO](https://cocodataset.org), and [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/). We cannot redistribute the images, therefore, we ask you to download the images yourself. The images should be added to the `X-VLM/image` directory, each dataset in its own subfolder folder.
+For evaluating X-VLM, we need to have access to the original images from [CUB-200 (CUB)](http://www.vision.caltech.edu/datasets/cub_200_2011/), [Amazon Berkley Objects (ABO)](https://amazon-berkeley-objects.s3.amazonaws.com/index.html), [Fashion200k](https://github.com/xthan/fashion-200k), [MS COCO](https://cocodataset.org), and [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/). We cannot redistribute the images, therefore, we ask you to download the images yourself. The images should be added to the `X-VLM/image` directory, each dataset in its own subfolder folder.
 Overall the X-VLM folder should look as follows:
 
 ```angular2html
@@ -67,4 +67,6 @@ sh X-VLM/jobs/evaluation/evaluate_cub.job
 sh X-VLM/jobs/evaluation/evaluate_abo.job 
 sh X-VLM/jobs/evaluation/evaluate_fashion200k.job 
 sh X-VLM/jobs/evaluation/evaluate_mscoco.job 
+# printing the results for X-VLM in one file
+sh X-VLM/jobs/postprocessing/results_printer.job
 ```

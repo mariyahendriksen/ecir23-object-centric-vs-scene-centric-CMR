@@ -1,0 +1,11 @@
+#!/bin/sh
+#SBATCH -p gpu
+#SBATCH --gres=gpu:1
+#SBATCH --mem=250gb
+#SBATCH --time=48:00:00
+#SBATCH -o /home/mbiriuk/X-VLM/logs/postprocessing/results_printer.out
+
+echo 'Printing the results'
+python3 X-VLM/results_printer.py
+echo 'Done with printing!'
+echo 'End of the script!'
