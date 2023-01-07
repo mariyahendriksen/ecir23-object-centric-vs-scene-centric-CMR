@@ -1,7 +1,7 @@
 # Dataset-specific settings
 CUB:
     dataset: CUB_200
-    dataset_root: /ivi/ilps/personal/mbiriuk/CUB_200_2011
+    dataset_root: ./CLIP/data/datasets/cub
     csv_file: cub_1_cap_per_img.csv
     csv_file_small: cub_tiny.csv
     image_folder: images
@@ -21,7 +21,7 @@ CUB:
     clip_version: clip-ViT-L-14
 ABO:
     dataset: ABO
-    dataset_root: /ivi/ilps/personal/mbiriuk/abo
+    dataset_root: ./CLIP/data/datasets/abo
     csv_file: abo_captions_1cap.csv
     image_folder: images/small
     columns_dtypes: {

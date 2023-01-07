@@ -12,6 +12,7 @@ def main(args):
     ds_config_file = args.ds_config_file
     dataset = args.dataset
     is_zero_shot = args.is_zero_shot
+    add_prefix = args.add_prefix
     # df_test_path = '/Users/mhendriksen/Desktop/repositories/CLIP/data/CUB/df_test.csv'
 
     print('Loading config file')
@@ -39,9 +40,14 @@ def main(args):
         config['DATASET'][dataset]['root'],
         config['DATASET'][dataset]['image_dict']
         )
+
+    if add_prefix:
+        text_dict_file = config['DATASET'][dataset]['text_dict_prefix']
+    else:
+        text_dict_file = config['DATASET'][dataset]['text_dict']
     text_dict_path = os.path.join(
         config['DATASET'][dataset]['root'],
-        config['DATASET'][dataset]['text_dict'],
+        text_dict_file,
     )
     # text_dict_path = '/Users/mhendriksen/Desktop/repositories/datasets/CUB_200_2011/text_dict.pkl'
     # image_dict_path = '/Users/mhendriksen/Desktop/repositories/datasets/CUB_200_2011/image_dict.pkl'
@@ -163,9 +169,11 @@ def main(args):
 
     print('Saving results')
     if '/' in model_path:
-        evaluation_id = os.path.basename(os.path.splitext(model_path)[0])
+        evaluation_id = f'{os.path.basename(os.path.splitext(model_path)[0])}'
     else:
         evaluation_id = model_path
+    if add_prefix:
+        evaluation_id += f'_prefix{add_prefix}'
     i2t_results_path = f'{config["deliverables_folder"]}/results/{evaluation_id}_image_to_text.pkl'
     t2i_results_path = f'{config["deliverables_folder"]}/results/{evaluation_id}_text_to_image.pkl'
     save_pkl(file=i2t_results, path=i2t_results_path)
@@ -182,6 +190,8 @@ if __name__ == '__main__':
                         default='CUB',
                         choices=['CUB', 'ABO', 'fashion200k', 'coco', 'f30k'],
                         help='dataset type')
+    parser.add_argument('--add_prefix', type=bool, default=False,
+                        help='Add "a photo of a " prefix (text data only)?')
     parser.add_argument('--is_zero_shot', type=bool, default=False,
                         help='Do we use CLIP in zero-shot way?')
     args = parser.parse_args()

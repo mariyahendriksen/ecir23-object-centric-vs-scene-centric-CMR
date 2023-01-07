@@ -1,6 +1,7 @@
 # general requirements
 torch==1.7.1
 torchvision==0.8.2
+pandas
 
 # xvlm-related requirements
 timm==0.4.9
@@ -15,3 +16,4 @@ pycocoevalcap
 # clip-related
 pyyaml
 tqdm
+sentence_transformers

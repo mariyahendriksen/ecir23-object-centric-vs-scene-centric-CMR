@@ -2,6 +2,7 @@ DATASET:
   CUB:
     root: CLIP/data/datasets/cub
     text_dict: text_dict.pkl
+    text_dict_prefix: text_prefixTrue_dict.pkl
     image_dict: image_dict.pkl
     df_train: df_train.csv
     df_test: df_test.csv

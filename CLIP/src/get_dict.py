@@ -13,8 +13,12 @@ def get_image_emb(config, model, img_file):
     img_emb = model.encode(Image.open(img_abs_path))
     return img_emb
 
-def get_text_emb(model, caption):
-    cutoff_point = 150 
+def get_text_emb(model, caption, add_prefix):
+    prefix = 'a photo of a '
+    if add_prefix:
+        caption = prefix + caption
+    
+    cutoff_point = 150
     if len(caption) > cutoff_point:
         caption = caption[:cutoff_point]
     try:
@@ -28,6 +32,7 @@ def main(args):
     CONTENT_TYPE = args.content_type # 'image' or 'text'
     DATASET = args.dataset
     config_file = args.config_file
+    add_prefix = args.add_prefix
     print(f'Working with {DATASET}, CONTENT_TYPE:{CONTENT_TYPE}')
 
     # load config file
@@ -67,12 +72,12 @@ def main(args):
             if CONTENT_TYPE == 'image':
                 emb = get_image_emb(config, model, file)
             elif CONTENT_TYPE == 'text':
-                emb = get_text_emb(model, file)
+                emb = get_text_emb(model, file, add_prefix)
             my_dict['data'][id][config['clip_version']] = emb
         else:
             print(f'{id} is already in the dict: {my_dict["data"][id]}')
 
-    dict_path = os.path.join(config["dataset_root"], str(CONTENT_TYPE+'_dict.pkl'))
+    dict_path = os.path.join(config["dataset_root"], f'{CONTENT_TYPE}_prefix{add_prefix}_dict.pkl')
     with open(dict_path, 'wb+') as f:
         pickle.dump(my_dict, f)
         print('Saved the file to: ', dict_path)
@@ -81,11 +86,13 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config_file', type=str, default='conf/data_conf.yaml',
+    parser.add_argument('--config_file', type=str, default='./CLIP/conf/data_conf.yaml',
                         help='Configuration file')
     parser.add_argument('--content_type', type=str, default='image',
                         choices=['image', 'text'],
                         help='Modality type')
+    parser.add_argument('--add_prefix', type=bool, default=False,
+                        help='Add "a photo of a " prefix (text data only)?')
     parser.add_argument('--dataset', type=str,
                         default='ABO',
                         choices=['CUB', 'ABO', 'fashion200k', 'coco', 'f30k'],
