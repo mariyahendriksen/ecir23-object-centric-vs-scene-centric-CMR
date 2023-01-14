@@ -2,6 +2,20 @@
 
 This repository contains the code used for the experiments in "Object-centric vs. Scene-centric Cross-modal Retrieval" published at ECIR 2023.
 
+If you
+
+```latex
+@inproceedings{hendriksen-2023-scene-centric,
+author = {Hendriksen, Mariya and Vakulenko, Svitlana and Kuiper, Ernst and de Rijke, Maarten},
+booktitle = {ECIR 2023: 45th European Conference on Information Retrieval},
+date-added = {2022-12-14 12:57:49 +0100},
+date-modified = {2022-12-14 13:00:00 +0100},
+month = {April},
+publisher = {Springer},
+title = {Scene-centric vs. Object-centric Image-Text Cross-modal Retrieval: A Reproducibility Study },
+year = {2023}}
+```
+
 First off, install the dependancies:
 ```bash
 pip install -r requirements.txt
