@@ -2,7 +2,8 @@
 
 This repository contains the code used for the experiments in "Object-centric vs. Scene-centric Cross-modal Retrieval" published at ECIR 2023.
 
-If you
+## Citation
+If you use this code to produce results for your scientific publication, or if you share a copy or fork, please refer to our ECIR 2023 paper:
 
 ```latex
 @inproceedings{hendriksen-2023-scene-centric,
