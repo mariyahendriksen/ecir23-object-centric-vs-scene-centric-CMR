@@ -28,7 +28,7 @@ First off, install the dependancies:
 pip install -r requirements.txt
 ```
 
-# Download the data
+### Download the data
 Download the data from [this repository](https://zenodo.org/record/7298031#.Y2jgU-zMLtV). The reposotory contains two zip files: `CLIP_data.zip` and `X-VLM_data.zip`
 
 
@@ -70,7 +70,7 @@ X-VLM/
         flickr30k/*.jpg
 ```
 
-# Models evaluation
+### Evaluate the models
 Evaluate each model on each of the five datasets.
 
 ```bash
