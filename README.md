@@ -11,7 +11,7 @@ author = {Hendriksen, Mariya and Vakulenko, Svitlana and Kuiper, Ernst and de Ri
 booktitle = {ECIR 2023: 45th European Conference on Information Retrieval},
 month = {April},
 publisher = {Springer},
-title = {Scene-centric vs. Object-centric Image-Text Cross-modal Retrieval: A Reproducibility Study },
+title = {Scene-centric vs. Object-centric Image-Text Cross-modal Retrieval: A Reproducibility Study},
 year = {2023}}
 ```
 
@@ -21,13 +21,13 @@ The contents of this repository are licensed under the MIT license. If you modif
 
 ## Reproducing Experiments
 
-First off, install the dependancies:
+First off, install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Download the data
-Download the data from [this repository](https://zenodo.org/record/7298031#.Y2jgU-zMLtV). The reposotory contains two zip files: `CLIP_data.zip` and `X-VLM_data.zip`
+Download the data from [this repository](https://zenodo.org/record/7298031#.Y2jgU-zMLtV). The repository contains two zip files: `CLIP_data.zip` and `X-VLM_data.zip`
 
 
 After unzipping `CLIP_data` put the resulting `data` folder in the `CLIP` folder:
@@ -41,7 +41,7 @@ CLIP/
 
 
 For evaluating X-VLM, we need to have access to the original images from [CUB-200 (CUB)](http://www.vision.caltech.edu/datasets/cub_200_2011/), [Amazon Berkley Objects (ABO)](https://amazon-berkeley-objects.s3.amazonaws.com/index.html), [Fashion200k](https://github.com/xthan/fashion-200k), [MS COCO](https://cocodataset.org), and [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/). We cannot redistribute the images, therefore, we ask you to download the images yourself. The images should be added to the `X-VLM/image` directory, each dataset in its own subfolder folder.
-Overall the X-VLM folder should look as follows:
+Overall the X-VLM folder should organized as follows:
 
 ```angular2html
 X-VLM/
