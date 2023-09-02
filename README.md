@@ -2,19 +2,6 @@
 
 This repository contains the code used for the experiments in "[Object-centric vs. Scene-centric Cross-modal Retrieval: A Reproducibility Study](https://mariyahendriksen.github.io/files/ecir23.pdf)" published at ECIR 2023.
 
-## Citation
-If you use this code to produce results for your scientific publication, or if you share a copy or fork, please refer to our ECIR 2023 paper:
-
-```latex
-@inproceedings{hendriksen-2023-scene-centric,
-author = {Hendriksen, Mariya and Vakulenko, Svitlana and Kuiper, Ernst and de Rijke, Maarten},
-booktitle = {ECIR 2023: 45th European Conference on Information Retrieval},
-month = {April},
-publisher = {Springer},
-title = {Scene-centric vs. Object-centric Image-Text Cross-modal Retrieval: A Reproducibility Study},
-year = {2023}}
-```
-
 ![CLIP-ITA model configuration](images/clip-ita.png)
 
 ## License
@@ -91,4 +78,17 @@ sh X-VLM/jobs/evaluation/evaluate_fashion200k.job
 sh X-VLM/jobs/evaluation/evaluate_mscoco.job 
 # printing the results for X-VLM in one file
 sh X-VLM/jobs/postprocessing/results_printer.job
+```
+
+## Citing and Authors
+If you find this repository helpful, feel free to cite our paper "[Object-centric vs. Scene-centric Cross-modal Retrieval: A Reproducibility Study](https://mariyahendriksen.github.io/files/ecir23.pdf)":
+
+```latex
+@inproceedings{hendriksen-2023-scene-centric,
+author = {Hendriksen, Mariya and Vakulenko, Svitlana and Kuiper, Ernst and de Rijke, Maarten},
+booktitle = {ECIR 2023: 45th European Conference on Information Retrieval},
+month = {April},
+publisher = {Springer},
+title = {Scene-centric vs. Object-centric Image-Text Cross-modal Retrieval: A Reproducibility Study},
+year = {2023}}
 ```
