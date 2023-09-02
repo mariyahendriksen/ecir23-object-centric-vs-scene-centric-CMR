@@ -15,7 +15,7 @@ title = {Scene-centric vs. Object-centric Image-Text Cross-modal Retrieval: A Re
 year = {2023}}
 ```
 
-![Siamese model configuration](images/Siamese-Model.png)
+![CLIP-ITA model configuration](images/clip-ita.png)
 
 ## License
 The contents of this repository are licensed under the MIT license. If you modify its contents in any way, please link back to this repository.
