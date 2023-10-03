@@ -1,6 +1,6 @@
-# Object-centric vs. Scene-centric Cross-modal Retrieval
+# Object-centric vs. Scene-centric Image-Text Cross-modal Retrieval
 
-This repository contains the code used for the experiments in "[Object-centric vs. Scene-centric Cross-modal Retrieval: A Reproducibility Study](https://mariyahendriksen.github.io/files/ecir23.pdf)" published at ECIR 2023.
+This repository contains the code used for the experiments in "[Object-centric vs. Scene-centric Image-Text Cross-modal Retrieval: A Reproducibility Study](https://mariyahendriksen.github.io/files/ecir23.pdf)" published at ECIR 2023.
 
 <div align="center">
 
