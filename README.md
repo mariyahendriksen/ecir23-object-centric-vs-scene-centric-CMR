@@ -91,7 +91,7 @@ sh X-VLM/jobs/postprocessing/results_printer.job
 If you find this repository helpful, feel free to cite our paper "[Object-centric vs. Scene-centric Cross-modal Retrieval: A Reproducibility Study](https://mariyahendriksen.github.io/files/ecir23.pdf)":
 
 ```latex
-@inproceedings{hendriksen-2023-scene-centric,
+@inproceedings{hendriksen-2023-object-centric,
 author = {Hendriksen, Mariya and Vakulenko, Svitlana and Kuiper, Ernst and de Rijke, Maarten},
 booktitle = {ECIR 2023: 45th European Conference on Information Retrieval},
 month = {April},
