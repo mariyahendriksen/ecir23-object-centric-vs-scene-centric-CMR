@@ -2,8 +2,6 @@
 
 This repository contains the code used for the experiments in "[Object-centric vs. Scene-centric Image-Text Cross-modal Retrieval: A Reproducibility Study](https://mariyahendriksen.github.io/files/ecir23.pdf)" published at ECIR 2023.
 
-![CLIP-ITA model configuration](images/clip-ita.png)
-
 ## License
 The contents of this repository are licensed under the MIT license. If you modify its contents in any way, please link back to this repository.
 
